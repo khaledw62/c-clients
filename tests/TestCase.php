@@ -2,9 +2,9 @@
 
 namespace Codetoon\ClientRelationshipManager\Tests;
 
+use Codetoon\ClientRelationshipManager\ClientRelationshipManagerServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Codetoon\ClientRelationshipManager\ClientRelationshipManagerServiceProvider;
 
 class TestCase extends Orchestra
 {

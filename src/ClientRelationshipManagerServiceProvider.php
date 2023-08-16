@@ -2,10 +2,10 @@
 
 namespace Codetoon\ClientRelationshipManager;
 
+use Codetoon\ClientRelationshipManager\Commands\ClientRelationshipManagerCommand;
+use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Spatie\LaravelPackageTools\Commands\InstallCommand;
-use Codetoon\ClientRelationshipManager\Commands\ClientRelationshipManagerCommand;
 
 class ClientRelationshipManagerServiceProvider extends PackageServiceProvider
 {
@@ -17,9 +17,9 @@ class ClientRelationshipManagerServiceProvider extends PackageServiceProvider
             ->hasViews()
             ->hasMigration('create_c-clients_table')
             ->hasCommand(ClientRelationshipManagerCommand::class)
-            ->hasInstallCommand(function(InstallCommand $command) {
+            ->hasInstallCommand(function (InstallCommand $command) {
                 $command
-                    ->startWith(function(InstallCommand $command) {
+                    ->startWith(function (InstallCommand $command) {
                         $command->info('Hello, and welcome to my great new package!');
                     })
                     ->publishConfigFile()
@@ -28,9 +28,9 @@ class ClientRelationshipManagerServiceProvider extends PackageServiceProvider
                     ->askToRunMigrations()
                     ->copyAndRegisterServiceProviderInApp()
                     ->askToStarRepoOnGitHub('codetoon/c-clients')
-                    ->endWith(function(InstallCommand $command) {
+                    ->endWith(function (InstallCommand $command) {
                         $command->info('Have a great day!');
                     });
-        });
+            });
     }
 }
