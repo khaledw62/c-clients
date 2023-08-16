@@ -1,12 +1,12 @@
 {
-    "name": "khaled-waleed/c-clients",
+    "name": "khaledw62/c-clients",
     "description": "This is my package c-clients",
     "keywords": [
         "Khaled Waleed",
         "laravel",
         "c-clients"
     ],
-    "homepage": "https://github.com/khaled-waleed/c-clients",
+    "homepage": "https://github.com/khaledw62/c-clients",
     "license": "MIT",
     "authors": [
         {
