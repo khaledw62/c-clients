@@ -1,0 +1,31 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up()
+    {
+        Schema::create('contacts', function (Blueprint $table) {
+            $table->id();
+            $table->string('name');
+            $table->string('phone');
+            $table->string('email');
+
+            $table->foreignId('country_id');
+
+            $table->foreignId('phoneable_id');
+            $table->string('phoneable_type');
+
+            $table->foreignId('owner_id');
+            $table->foreignId('user_id');
+
+            $table->timestamps();
+            $table->softDeletes();
+
+            $table->index(['phoneable_type', 'phoneable_id'], 'phoneable_type');
+        });
+    }
+};
