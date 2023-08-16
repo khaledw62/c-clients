@@ -1,9 +1,9 @@
 # This is my package c-clients
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/khaled-waleed/c-clients.svg?style=flat-square)](https://packagist.org/packages/khaled-waleed/c-clients)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/khaled-waleed/c-clients/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/khaled-waleed/c-clients/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/khaled-waleed/c-clients/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/khaled-waleed/c-clients/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/khaled-waleed/c-clients.svg?style=flat-square)](https://packagist.org/packages/khaled-waleed/c-clients)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/khaledw62/c-clients.svg?style=flat-square)](https://packagist.org/packages/khaledw62/c-clients)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/khaledw62/c-clients/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/khaledw62/c-clients/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/khaledw62/c-clients/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/khaledw62/c-clients/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/khaledw62/c-clients.svg?style=flat-square)](https://packagist.org/packages/khaledw62/c-clients)
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
@@ -20,7 +20,7 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require khaled-waleed/c-clients
+composer require khaledw62/c-clients
 ```
 
 You can publish and run the migrations with:
