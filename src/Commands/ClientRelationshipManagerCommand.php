@@ -10,8 +10,5 @@ class ClientRelationshipManagerCommand extends Command
 
     public $description = 'My command';
 
-    public function handle(): int
-    {
-
-    }
+    public function handle(): int {}
 }

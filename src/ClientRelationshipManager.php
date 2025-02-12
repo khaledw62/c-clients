@@ -1,10 +1,9 @@
 
             <?php
-        
-        namespace Codetoon\ClientRelationshipManager;
-        
-        class ClientRelationshipManager
-        {
-        //Tataaaa
-        }
-    
+
+namespace Codetoon\ClientRelationshipManager;
+
+            class ClientRelationshipManager
+            {
+                // Tataaaa
+            }
