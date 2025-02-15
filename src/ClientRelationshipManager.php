@@ -2,6 +2,4 @@
 
 namespace Codetoon\ClientRelationshipManager;
 
-class ClientRelationshipManager
-{
-}
+class ClientRelationshipManager {}
